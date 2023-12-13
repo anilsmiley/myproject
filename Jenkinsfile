@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label "crazy"}
 
     options {
         // Set the build discarder (logRotator) for this job
